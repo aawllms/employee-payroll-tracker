@@ -1,0 +1,55 @@
+user clicks Add Employees - user is prompted for firstName, then user is prompted for lastName, then user is prompted for salary 
+
+
+create a prompt for firstName, lastName, and salary 
+
+create a confirm asking if they would like to add an employee
+
+store values in variables 
+
+log out the variables - captured the user information correctly 
+
+
+what data structure can i use to store users????
+
+store a user as an object 
+
+
+3 variables for firstName, lastName, and salary 
+
+create an object - 3 key value pairs  
+
+const employee = {
+firstName: firstName,
+lastName: lastName,
+salary: salary
+}
+
+
+what data structure can i store the user objects if the manager keeps adding employees 
+
+const employees = [{firstName: "Ben", lastName: "Machock", salary: 300000}, {}, {} ]
+
+
+employees.push({})
+
+console.log(employees[0])
+
+
+for loops 
+
+
+
+3 functions 
+
+collectEmployees()
+
+displayAverageSalary function - calculate average salary and log info - template literal    log salaries with no and with.2 outcomes, maybe use an if statement? 
+
+getRandomEmployee - choose a random employee and log a template literal the first name and last name of employee 
+Math.floor() and Math.Random
+
+displayEmployees() - takes your array of objects and displays them in a table 
+
+trackEmployeeData() - function we will trigger when the user takes the action of clicking on "Add Employees"
+takes the array generated in collectEmployees function, sort the employees by last name and place them on a table using the displayEmployees() function.  this track employee function will execute the display average salary function to log average and it will execute the getRandomEmployee() function
